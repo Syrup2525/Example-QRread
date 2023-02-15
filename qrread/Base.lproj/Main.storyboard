@@ -21,7 +21,7 @@
                                 <rect key="frame" x="0.0" y="47" width="390" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hTT-RF-gMf">
-                                        <rect key="frame" x="18" y="15" width="20" height="20"/>
+                                        <rect key="frame" x="352" y="15" width="20" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20" id="1Q5-nB-2Ne"/>
                                             <constraint firstAttribute="width" constant="20" id="tM2-7I-411"/>
@@ -37,8 +37,8 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="hTT-RF-gMf" firstAttribute="centerY" secondItem="CiK-IE-k8f" secondAttribute="centerY" id="1mR-iQ-wUZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="hTT-RF-gMf" secondAttribute="trailing" constant="18" id="4nK-4d-EOg"/>
                                     <constraint firstAttribute="height" constant="50" id="EnF-AN-QAf"/>
-                                    <constraint firstItem="hTT-RF-gMf" firstAttribute="leading" secondItem="CiK-IE-k8f" secondAttribute="leading" constant="18" id="UZc-fJ-afl"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2j8-1N-fJz" userLabel="DIvision View">
